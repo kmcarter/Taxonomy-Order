@@ -95,12 +95,12 @@ Yep. To check if terms ordering is enable for a specific taxonomy add this code 
 ###1. Dragging the taxonomy's term to its new position
 ###
 ![Dragging the taxonomy's term to its new position
-](http://s.wordpress.org/extend/plugins/taxonomy-order/screenshot-1.png)
+](https://github.com/shivapoudel/Taxonomy-Order/blob/master/screenshot-1.png)
 
 ###2. Processing indicator
 ###
 ![Processing indicator
-](http://s.wordpress.org/extend/plugins/taxonomy-order/screenshot-2.png)
+](https://github.com/shivapoudel/Taxonomy-Order/blob/master/screenshot-2.png)
 
 
 ## Changelog ##
