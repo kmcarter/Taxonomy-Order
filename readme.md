@@ -105,8 +105,11 @@ Yep. To check if terms ordering is enable for a specific taxonomy add this code 
 
 ## Changelog ##
 
-### 1.0 ###
+### 1.1 ###
 Small Bug Fix...
+
+### 1.0 ###
+Initial Version...
 
 ## Upgrade Notice ##
 

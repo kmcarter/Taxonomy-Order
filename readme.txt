@@ -64,29 +64,24 @@ Definitely yes because this plugin is based on OOP Class and if you are running 
 Yep. To enable ordering terms of a specific taxonomy add t
 his code to your theme's *function.php* file:
 
-if( function_exists('add_interface_taxonomy_order') ){
-
-add_interface_taxonomy_order ("$taxonomy_name");
-
-}
+`if( function_exists('add_interface_taxonomy_order') ){
+	add_interface_taxonomy_order ("$taxonomy_name");
+}`
 
 = Can I remove support for a specific taxonomy =
 Yep. To remove support for a specific taxonomy add this code to your theme's *function.php* file:
 
-if( function_exists('remove_interface_taxonomy_order') ){
-
-remove_interface_taxonomy_order ("$taxonomy_name");
-
-}
+`if( function_exists('remove_interface_taxonomy_order') ){
+	remove_interface_taxonomy_order ("$taxonomy_name");
+}`
 
 = Can I check if terms ordering is enable =
 Yep. To check if terms ordering is enable for a specific taxonomy add this code to your theme's *function.php* file:
 
-if( function_exists('has_interface_taxonomy_order') ){
+`if( function_exists('has_interface_taxonomy_order') ){
+	$enable = has_interface_taxonomy_order ("$taxonomy_name");
+}`
 
-$enable = has_interface_taxonomy_order ("$taxonomy_name");
-
-}
 == Screenshots ==
 
 1. Dragging the taxonomy's term to its new position
@@ -94,8 +89,11 @@ $enable = has_interface_taxonomy_order ("$taxonomy_name");
 
 == Changelog ==
 
-= 1.0 =
+= 1.1 =
 Small Bug Fix...
+
+= 1.0 =
+Initial Version...
 
 == Upgrade Notice ==
 
