@@ -1,12 +1,20 @@
 # Taxonomy Order #
-**Contributors:** shivadai  
-**Donate link:** http://css-gen.com/donate  
-**Tags:** order, re-order, ordering, taxonomy, taxonomies, manage, ajax, drag-and-drop, admin  
-**Requires at least:** 3.4  
-**Tested up to:** 3.6  
-**Stable tag:** 1.1  
-**License:** GPLv3  
-**License URI:** http://www.gnu.org/licenses/gpl-3.0.html  
+**Contributors:** shivadai
+  
+**Donate link:** http://css-gen.com/donate
+  
+**Tags:** order, re-order, ordering, taxonomy, taxonomies, manage, ajax, drag-and-drop, admin
+  
+**Requires at least:** 3.4
+  
+**Tested up to:** 3.6
+  
+**Stable tag:** 1.1
+  
+**License:** GPLv3
+  
+**License URI:** http://www.gnu.org/licenses/gpl-3.0.html
+  
 
 Order your categories, tags or any taxonomy's terms with simple Ajax Drag and Drop Interface right from the standard terms list.
 
@@ -64,36 +72,35 @@ Definitely yes because this plugin is based on OOP Class and if you are running 
 Yep. To enable ordering terms of a specific taxonomy add t
 his code to your theme's *function.php* file:
 
-if( function_exists('add_interface_taxonomy_order') ){
-
-add_interface_taxonomy_order ("$taxonomy_name");
-
-}
+`if( function_exists('add_interface_taxonomy_order') ){
+	add_interface_taxonomy_order ("$taxonomy_name");
+}`
 
 ### Can I remove support for a specific taxonomy ###
 Yep. To remove support for a specific taxonomy add this code to your theme's *function.php* file:
 
-if( function_exists('remove_interface_taxonomy_order') ){
-
-remove_interface_taxonomy_order ("$taxonomy_name");
-
-}
+`if( function_exists('remove_interface_taxonomy_order') ){
+	remove_interface_taxonomy_order ("$taxonomy_name");
+}`
 
 ### Can I check if terms ordering is enable ###
 Yep. To check if terms ordering is enable for a specific taxonomy add this code to your theme's *function.php* file:
 
-if( function_exists('has_interface_taxonomy_order') ){
+`if( function_exists('has_interface_taxonomy_order') ){
+	$enable = has_interface_taxonomy_order ("$taxonomy_name");
+}`
 
-$enable = has_interface_taxonomy_order ("$taxonomy_name");
-
-}
 ## Screenshots ##
 
-###1. Dragging the taxonomy's term to its new position###
-![Dragging the taxonomy's term to its new position](http://s.wordpress.org/extend/plugins/taxonomy-order/screenshot-1.png)
+###1. Dragging the taxonomy's term to its new position
+###
+![Dragging the taxonomy's term to its new position
+](http://s.wordpress.org/extend/plugins/taxonomy-order/screenshot-1.png)
 
-###2. Processing indicator###
-![Processing indicator](http://s.wordpress.org/extend/plugins/taxonomy-order/screenshot-2.png)
+###2. Processing indicator
+###
+![Processing indicator
+](http://s.wordpress.org/extend/plugins/taxonomy-order/screenshot-2.png)
 
 
 ## Changelog ##
