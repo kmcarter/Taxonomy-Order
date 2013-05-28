@@ -95,12 +95,12 @@ Yep. To check if terms ordering is enable for a specific taxonomy add this code 
 ###1. Dragging the taxonomy's term to its new position
 ###
 ![Dragging the taxonomy's term to its new position
-](https://github.com/shivapoudel/Taxonomy-Order/blob/master/screenshot-1.png)
+](https://raw.github.com/shivapoudel/Taxonomy-Order/master/screenshot-1.png)
 
 ###2. Processing indicator
 ###
 ![Processing indicator
-](https://github.com/shivapoudel/Taxonomy-Order/blob/master/screenshot-2.png)
+](https://raw.github.com/shivapoudel/Taxonomy-Order/master/screenshot-2.png)
 
 
 ## Changelog ##
