@@ -1,20 +1,12 @@
 # Taxonomy Order #
-**Contributors:** shivadai
-  
-**Donate link:** http://css-gen.com/donate
-  
-**Tags:** order, re-order, ordering, taxonomy, taxonomies, manage, ajax, drag-and-drop, admin
-  
-**Requires at least:** 3.4
-  
-**Tested up to:** 3.6
-  
-**Stable tag:** 1.0
-  
-**License:** GPLv3
-  
-**License URI:** http://www.gnu.org/licenses/gpl-3.0.html
-  
+**Contributors:** shivadai  
+**Donate link:** http://css-gen.com/donate  
+**Tags:** order, re-order, ordering, taxonomy, taxonomies, manage, ajax, drag-and-drop, admin  
+**Requires at least:** 3.4  
+**Tested up to:** 3.6  
+**Stable tag:** 1.1  
+**License:** GPLv3  
+**License URI:** http://www.gnu.org/licenses/gpl-3.0.html  
 
 Order your categories, tags or any taxonomy's terms with simple Ajax Drag and Drop Interface right from the standard terms list.
 
@@ -46,9 +38,9 @@ By default, Ajax Drag and Drop Interface is enable for your posts categories and
 ### Help and Support ###
 You would like to support us? Go over [at our website](http://css-gen.com/donate "Buy us a Coffee") and donate us for buying us a coffee for making us crazy to think creative and develop interesting and fabulous plugins/themes.
 
-Want to contribute? This plugin is on [Github](https://github.com/shivadai/Taxonomy-Order).
+Want to contribute? This plugin is on [Github](https://github.com/shivapoudel/Taxonomy-Order).
 
-**Credit where credit is due:-** This plugin here is inspired and based on the work of *"Simle Page Ordering"* and *"Gecka Terms Ordering"* Plugin.
+**Credit where credit is due:-** This plugin here is inspired and based on the work of *"Simple Page Ordering"* and *"Gecka Terms Ordering"* Plugin.
 
 ## Installation ##
 
@@ -97,32 +89,22 @@ $enable = has_interface_taxonomy_order ("$taxonomy_name");
 }
 ## Screenshots ##
 
-###1. Dragging the taxonomy's term to its new position
-###
-![Dragging the taxonomy's term to its new position
-](http://s.wordpress.org/extend/plugins/taxonomy-order/screenshot-1.png)
+###1. Dragging the taxonomy's term to its new position###
+![Dragging the taxonomy's term to its new position](http://s.wordpress.org/extend/plugins/taxonomy-order/screenshot-1.png)
 
-###2. Processing indicator
-###
-![Processing indicator
-](http://s.wordpress.org/extend/plugins/taxonomy-order/screenshot-2.png)
+###2. Processing indicator###
+![Processing indicator](http://s.wordpress.org/extend/plugins/taxonomy-order/screenshot-2.png)
 
 
 ## Changelog ##
 
-### 1.1 ###
-Small Bug Fix...
-
 ### 1.0 ###
-* Added...
-* Fixed...
-* Updated...
-* Initial release...
+Small Bug Fix...
 
 ## Upgrade Notice ##
 
 ### 1.1 ###
-Just released Stable Version.
+Just released into the wild.
 
 ### 1.0 ###
 Just released into the wild.
