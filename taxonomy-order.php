@@ -81,7 +81,7 @@ class Interface_Taxonomy_Order {
 		/**
 		 * Setup Plugins Paths
 		 */
-		self::$plugin_folder = 'Taxonomy-Order';
+		self::$plugin_folder = 'taxonomy-order';
 		self::$plugin_dir = WP_PLUGIN_DIR . '/' . self::$plugin_folder;
 		self::$plugin_url = WP_PLUGIN_URL . '/' . self::$plugin_folder;
 		self::$plugin_file = self::$plugin_dir . '/taxonomy-order.php';
